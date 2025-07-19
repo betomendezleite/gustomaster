@@ -9,7 +9,7 @@ class AppTheme {
     return ThemeData(
       // Colores principales de la aplicación
       primaryColor: AppColors.primary,
-      colorScheme: ColorScheme.light(
+      colorScheme: const ColorScheme.light(
         primary: AppColors.primary,
         primaryContainer: AppColors.primaryLight,
         secondary: AppColors.accent,
@@ -123,7 +123,7 @@ class AppTheme {
               width: 2), // Borde cuando hay error y está enfocado
         ),
         labelStyle: const TextStyle(color: AppColors.textSecondary),
-        hintStyle: TextStyle(color: AppColors.textSecondary),
+        hintStyle: const TextStyle(color: AppColors.textSecondary),
         contentPadding:
             const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       ),
